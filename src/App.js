@@ -1,13 +1,14 @@
+import React from 'react'
 import './App.css';
 import {Login , Homepage, Register} from './components/index'
 
 function App() {
   return (
-    <div className="App">
-      <Login />
-      {/* <Register /> */}
+      <div className='container-1' >
+      {/* <Login /> */}
+      <Register />
       {/* <Homepage /> */}
-    </div>
+      </div>
   );
 }
 
